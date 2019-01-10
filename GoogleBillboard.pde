@@ -7,7 +7,7 @@ public void setup()
   {
     eString = e.substring(i,i+10);
     eSub = Double.parseDouble(eString);
-    if (isPrime(eSub) == true)
+    if (isPrime(eSub))
       System.out.println(eSub);
   }
 }  
